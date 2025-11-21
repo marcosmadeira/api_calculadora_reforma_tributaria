@@ -1,0 +1,62 @@
+{
+  "objetos": [
+    {
+      "nObj": 1,
+      "tribCalc": {
+        "IS": null,
+        "IBSCBS": {
+          "cst": null,
+          "cClassTrib": "000001",
+          "indDoacao": null,
+          "gIBSCBS": {
+            "vBC": 200,
+            "gIBSUF": {
+              "pIBSUF": 0.1,
+              "gDif": null,
+              "gDevTrib": null,
+              "gRed": {
+                "pRedAliq": 0,
+                "pAliqEfet": 0.1
+              },
+              "vIBSUF": 0.2,
+              "memoriaCalculo": "Operação de consumo com enquadramento legal em LC 214/2025, tributada conforme Tributação integral. A base de cálculo utilizada é de R$ 200.00, com alíquota de 0.10%."
+            },
+            "gIBSMun": {
+              "pIBSMun": 0,
+              "gDif": null,
+              "gDevTrib": null,
+              "gRed": {
+                "pRedAliq": 0,
+                "pAliqEfet": 0
+              },
+              "vIBSMun": 0,
+              "memoriaCalculo": "Operação de consumo com enquadramento legal em LC 214/2025, tributada conforme Tributação integral. A base de cálculo utilizada é de R$ 200.00, com alíquota de 0.00%."
+            },
+            "vIBS": 0.2,
+            "gCBS": {
+              "pCBS": 0.9,
+              "gDif": null,
+              "gDevTrib": null,
+              "gRed": {
+                "pRedAliq": 0,
+                "pAliqEfet": 0.9
+              },
+              "vCBS": 1.8,
+              "memoriaCalculo": "Operação de consumo com enquadramento legal em LC 214/2025, tributada conforme Tributação integral. A base de cálculo utilizada é de R$ 200.00, com alíquota de 0.90%."
+            },
+            "gTribRegular": null,
+            "gTribCompraGov": null
+          },
+          "gTransfCred": null,
+          "gAjusteCompet": null,
+          "gEstornoCred": null,
+          "gCredPresOper": null,
+          "gCredPresIBSZFM": null
+        }
+      }
+    }
+  ],
+  "total": {
+    "tribcal": null
+  }
+}
