@@ -188,7 +188,7 @@ class IBSCBSSchema(BaseModel):
     gTransfCred: Optional[gTransfCredSchema] = None
     gAjusteCompet: Optional[gAjusteCompetSchema] = None
     gEstornoCred: Optional[gEstornoCredSchema] = None
-    gCredPresOper: Optional[gCredPresOperSchema] = None
+    # gCredPresOper: Optional[gCredPresOperSchema] = None
     gCredPresIBSZFM: Optional[gCredPresIBSZFMSchema] = None
 
 # Grupo total da CBS

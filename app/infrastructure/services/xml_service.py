@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 import logging
 
-from app.application.schemas.calculo_regime_geral_response_schema import ROCDomainSchema
+from app.application.schemas.gerar_xml_response_schema import ROCDomainSchema
 from app.application.schemas.exceptions_schema import ExternalAPIError
 
 load_dotenv()
@@ -39,6 +39,7 @@ class XMLService:
             
             except httpx.HTTPStatusError as e:
                 logger.error(f"Erro na API externa ao gerar XML. Status: {e.response.status_code}")
+                logger.error(f"Erro na API externa ao gerar XML. Status: {e}")
                 try:
                     error_details = e.response.json()
                 except Exception:

@@ -1,4 +1,4 @@
-from app.application.schemas.calculo_regime_geral_response_schema import ROCDomainSchema
+from app.application.schemas.gerar_xml_response_schema import ROCDomainSchema
 from app.application.enums.tipo_documento_enum import TipoDocumentoEnum
 from app.infrastructure.services.xml_service import XMLService
 
