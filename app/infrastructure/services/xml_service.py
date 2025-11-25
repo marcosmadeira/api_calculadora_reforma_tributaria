@@ -9,6 +9,7 @@ from app.application.schemas.exceptions_schema import ExternalAPIError
 load_dotenv()
 logger = logging.getLogger(__name__)
 
+
 class XMLService:
     """
     Serviço de infraestrutura para comunicação com a API de geração de XML.
