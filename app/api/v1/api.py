@@ -4,6 +4,7 @@ from fastapi import APIRouter
 from app.api.v1.endpoints import base_de_calculo
 from app.api.v1.endpoints import gerar_documentos
 from app.api.v1.endpoints import dados_abertos
+from app.api.v1.endpoints import busca_regime_tributario
 
 
 # Importando routeadores dos endpoints
@@ -18,3 +19,4 @@ api_router.include_router(gerar_documentos.router, prefix="/gerar", tags=["Gera√
 api_router.include_router(dados_abertos.router, prefix="/dados-abertos", tags=['Dados Abertos'])
 
 
+api_router.include_router(busca_regime_tributario.router, prefix="/regime-tributario", tags=['Regime Tribut√°rio'])
